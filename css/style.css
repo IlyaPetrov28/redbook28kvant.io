@@ -1,0 +1,286 @@
+
+body{
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+ul,li{
+    list-style: none;
+}
+
+.menu{
+    padding-top: 3%;
+}
+
+.nav-ul{
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-li a{
+    color: #ffffff;
+}
+
+.nav-li a:hover{
+    color: #de2e2e;
+}
+
+.nav{
+    color: white;
+}
+
+.container{
+    padding: 0 5%;
+}
+
+.footer{
+    position: absolute;
+    font-size: 24px;
+    background-color: black;
+    width: 100%;
+/*     height: 10%; */
+    color: white;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.redbook-1{
+    font-size: 80px
+}
+.redbook-2{
+    font-size: 120px
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-my{
+    padding-right: 20px
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+.video-bg {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.video-bg video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.effects {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.3);
+}
+.video-bg__content {
+    z-index: 2;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.center{
+    text-align: center;
+}
+.spisok{
+    color: white;
+    text-decoration: none;
+}
+.spisok:hover{
+    color: #de2e2e;
+}
+
+.block-1{
+    width: 100%;
+    height: 65vh;
+    background-image: url('/img/amer-leming.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+        background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+
+    display: flex;
+    align-items:end;
+    justify-content: center;
+
+}
+
+.block-1:hover{
+ /*    background: rgba(0,0,0,0.5); */
+    transition: 0.3s ease;
+    color: #ffffff;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 25px;
+    background: 0;
+    cursor: pointer;
+    border: 1px solid brown;
+}
+
+.btn:hover{
+  transform: scale(1.2);
+  margin-bottom: 10px;
+  transition: 0.3s ease;
+}
+
+.btn a{
+    text-decoration: none;
+    color: brown;
+    
+}
+
+.btn-mlek{
+    margin: 10px;
+    text-align: left;
+    color: white;
+    width: 60%;
+/*     height: 5vh; */
+    cursor: pointer;
+    background: rgb(38, 67, 38);
+    font-size: 24px;
+}
+
+.container h2{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.container h1{
+    font-size: 50px;
+}
+
+.btn-mlek:hover{
+    transition: 0.3s ease;
+    background: rgb(58, 97, 69);
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .main{
+    background-image: url("../img/bg-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+} */
+
+.container img{
+    max-width: 100%;
+}
+
+.text-left{
+    flex-basis: 60%;
+}
+
+.bg-w{
+    background: #ffffff;
+    margin: 0 auto;
+    top: 0;
+    padding: 0.1% 0;
+}
+
+.container-center{
+    padding: 0 5%;
+    padding-top: 5%;
+    background: url(/img/Scene-12.jpg)
+}
+
+.abzac-inner{
+    font-size: 18px;
+}
+
+.none{
+    display: none;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .navbar__wrap {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .hamb {
+    display: none;
+  }
+  
+  .popup {
+    display: none;
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu > li > a {
+    text-decoration: none;
+  }
+  
+  .navbar__wrap .menu {
+    display: flex;
+  }
+  
+  .navbar__wrap .menu > li {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .navbar__wrap .menu > li > a {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .navbar__wrap .menu > li > a:hover {
+    color: rgba(255, 255, 255, 1);
+  }
